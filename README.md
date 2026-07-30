@@ -61,7 +61,7 @@ git clone your-repo-link
 
 ### 4. Run your ps1 program
 ```bash
-powershell -ExecutionPolicy Bypass -File "C:\path\to\your\ps1\program"
+powershell -ExecutionPolicy Bypass -File "ps1-program-name.ps1"
 
 ```
 
