@@ -1,7 +1,7 @@
 param(
   [string]$Repo = "C:\Your\Project\File\Path",
   [string]$Branch = "Your-Working-Branch",
-  [int]$CheckEverySeconds = 20 "Editable"
+  [int]$CheckEverySeconds = 20
 )
 
 Set-Location -LiteralPath $Repo
