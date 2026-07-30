@@ -17,7 +17,8 @@
 -  Automate Git commit
 -  Automatic Git push
 -  Custom commit messages
--  Highly configurable
+-  Configurable
+-  Press CTRL + C to stop
 ---
 
 ## 📂 Project Structure
@@ -61,18 +62,22 @@ git clone your-repo-link
 ### 4. Run your ps1 program
 ```bash
 powershell -ExecutionPolicy Bypass -File "C:\path\to\your\ps1\program"
+
 ```
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ File Configuration 
 
 Example configuration:
 
 ```bash
-COMMIT_MESSAGE="Update project"
-BRANCH="main"
-REMOTE="origin"
+$Repo = "Your repo file path" (IMPORTANT)
+$Branch = "Your working branch name in github. Can be main or others." (IMPORTANT)
+$CheckEverySeconds = Each what seconds u want the program to check and push. (OPTIONAL)
+$message = "Commit message that appears on ur github"
+
+
 ```
 
 ---
@@ -104,16 +109,6 @@ Done ✅
 
 > Add screenshots or terminal demonstrations here.
 
-```
-$ ./automate.sh
-
-✔ Detecting changes...
-✔ Staging files...
-✔ Creating commit...
-✔ Pushing to origin/main...
-✔ Completed successfully.
-```
-
 ---
 
 ## 🛡️ Responsible Use
@@ -125,20 +120,9 @@ This project is intended for:
 - CI/CD automation
 - Scheduled repository synchronization
 - Routine maintenance tasks
+- To stop program, CTRL + C
 
-It is **not** intended to manipulate contribution graphs or create misleading repository activity.
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Interactive CLI
-- [ ] Configuration file support
-- [ ] Colored terminal output
-- [ ] Multiple repository support
-- [ ] Notification integration
-- [ ] Dry-run mode
-- [ ] Docker image
+It is **not** intended to manipulate contribution graphs or create misleading repository activity. Use with you own risk.
 
 ---
 
