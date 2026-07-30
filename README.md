@@ -5,13 +5,6 @@
 *A lightweight and customizable automation program for Git commit & push workflows.*
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/Farrel481/GitAutomate?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/Farrel481/GitAutomate.git?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/Farrel481/GitAutomate.git?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/Farrel481/GitAutomate.git?style=for-the-badge" />
-</p>
-
-<p align="center">
   <strong>Automate repetitive Git operations safely, efficiently, and responsibly.</strong>
 </p>
 
