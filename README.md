@@ -5,10 +5,10 @@
 *A lightweight and customizable automation program for Git commit & push workflows.*
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/USERNAME/REPOSITORY?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/USERNAME/REPOSITORY?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/USERNAME/REPOSITORY?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/USERNAME/REPOSITORY?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Farrel481/GitAutomate.git?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Farrel481/GitAutomate.git?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Farrel481/GitAutomate.git?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Farrel481/GitAutomate.git?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@
 ### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/Farrel481/GitAutomate.git.git
 cd REPOSITORY
 ```
 
