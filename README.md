@@ -14,7 +14,7 @@
 
 ## ✨ Features
 
--  Automatic Git commit
+-  Automate Git commit
 -  Automatic Git push
 -  Custom commit messages
 -  Highly configurable
@@ -24,9 +24,8 @@
 
 ```text
 .
-├── scripts/
-│   ├── automate.sh
-│   └── config.sh
+├── assets/
+│   ├── program.ps1
 ├── .gitignore
 ├── README.md
 └── LICENSE
