@@ -35,23 +35,32 @@
 
 ## 🚀 Getting Started
 
-### Clone Repository
+### 1. Login to ur Github
 
 ```bash
-git clone https://github.com/Farrel481/GitAutomate.git.git
-cd REPOSITORY
+git credential-manager github login
+git config --global user.name "Your GitHub Username"
+git config --global user.email "your-email@example.com"
+
 ```
 
-### Install
+### 2. Clone your Repo
 
 ```bash
-chmod +x scripts/automate.sh
+git clone your-repo-link
 ```
 
-### Run
+### 3. Follow this step
 
+```text
+1. Make your gitignore (can copy mine)
+2. New file e.g program.ps1
+3. Copy the file provided by me and paste to ur ps1 program. 
+```
+
+### 4. Run your ps1 program
 ```bash
-./scripts/automate.sh
+powershell -ExecutionPolicy Bypass -File "C:\path\to\your\ps1\program"
 ```
 
 ---
