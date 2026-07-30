@@ -113,7 +113,7 @@ Done ✅
 
 ## 🛡️ Responsible Use
 
-This project is intended for:
+Don't forget you still have to do:
 
 - Project backups
 - Personal development workflows
