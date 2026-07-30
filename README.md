@@ -14,14 +14,10 @@
 
 ## ✨ Features
 
-- ⚡ Automatic Git commit
-- 📤 Automatic Git push
-- 📝 Custom commit messages
-- ⏰ Scheduled execution support
-- 🔧 Highly configurable
-- 🖥️ Cross-platform compatible
-- 📜 Simple and lightweight
-
+-  Automatic Git commit
+-  Automatic Git push
+-  Custom commit messages
+-  Highly configurable
 ---
 
 ## 📂 Project Structure
@@ -31,7 +27,6 @@
 ├── scripts/
 │   ├── automate.sh
 │   └── config.sh
-├── logs/
 ├── .gitignore
 ├── README.md
 └── LICENSE
